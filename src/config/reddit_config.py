@@ -29,10 +29,10 @@ CONFIG = prefer_envar({
   # the chance the bot will repost a post
   "reddit_post_chance": 0.005,
   # the chance the bot will make a comment
-  "reddit_comment_chance": 0.005,
+  "reddit_comment_chance": 0.00,
   # the chance the bot will reply to a comment
   # otherwise it will reply to a post
-  "reddit_reply_to_comment": 0.002,
+  "reddit_reply_to_comment": 0.00,
   # chance the bot will remove poor performing
   # posts and comments
   "reddit_remove_low_scores": 0.002,
@@ -52,7 +52,7 @@ CONFIG = prefer_envar({
   # 3 - 2pm-6pm ((14,00),(18,00))
   # 4 - 6pm-10pm ((18,00),(22,00))
   # 5 - 10pm-2am ((22,00),(2,00))
-  "reddit_sleep_schedule": [2, 4],
+  "reddit_sleep_schedule": [],
   # Frequency to check if the bot hit karma limits
   "reddit_karma_limit_check": 0.002,
   # Set to integer with the max comment karma 
